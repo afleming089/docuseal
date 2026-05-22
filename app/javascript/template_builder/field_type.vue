@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import { IconTextSize, IconWritingSign, IconCalendarEvent, IconPhoto, IconCheckbox, IconPaperclip, IconSelect, IconCircleDot, IconChecks, IconColumns3, IconPhoneCheck, IconLetterCaseUpper, IconCreditCard, IconRubberStamp, IconSquareNumber1, IconHeading, IconId, IconCalendarCheck, IconStrikethrough, IconUserScan } from '@tabler/icons-vue'
+import { IconTextSize, IconWritingSign, IconCalendarEvent, IconPhoto, IconCheckbox, IconPaperclip, IconSelect, IconCircleDot, IconChecks, IconColumns3, IconPhoneCheck, IconLetterCaseUpper, IconCreditCard, IconRubberStamp, IconSquareNumber1, IconHeading, IconId, IconCalendarCheck, IconStrikethrough, IconUserScan, IconMapPin } from '@tabler/icons-vue'
 
 export default {
   name: 'FiledTypeDropdown',
@@ -115,7 +115,8 @@ export default {
         payment: this.t('payment'),
         phone: this.t('phone'),
         verification: this.t('verify_id'),
-        kba: this.t('kba')
+        kba: this.t('kba'),
+        geolocation: this.t('geo_location')
       }
     },
     fieldLabels () {
@@ -136,7 +137,8 @@ export default {
         payment: this.t('payment_field'),
         phone: this.t('phone_field'),
         verification: this.t('verify_id'),
-        kba: this.t('kba')
+        kba: this.t('kba'),
+        geolocation: this.t('geo_location')
       }
     },
     fieldIcons () {
@@ -160,7 +162,8 @@ export default {
         payment: IconCreditCard,
         phone: IconPhoneCheck,
         verification: IconId,
-        kba: IconUserScan
+        kba: IconUserScan,
+        geolocation: IconMapPin
       }
     },
     skipTypes () {
