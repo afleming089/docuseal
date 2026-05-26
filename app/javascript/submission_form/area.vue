@@ -287,7 +287,7 @@
 
 <script>
 import MarkdownContent from './markdown_content'
-import { IconTextSize, IconWritingSign, IconCalendarEvent, IconPhoto, IconCheckbox, IconPaperclip, IconSelect, IconCircleDot, IconChecks, IconCheck, IconColumns3, IconPhoneCheck, IconLetterCaseUpper, IconCreditCard, IconRubberStamp, IconSquareNumber1, IconId, IconUserScan } from '@tabler/icons-vue'
+import { IconTextSize, IconWritingSign, IconCalendarEvent, IconPhoto, IconCheckbox, IconPaperclip, IconSelect, IconCircleDot, IconChecks, IconCheck, IconColumns3, IconPhoneCheck, IconLetterCaseUpper, IconCreditCard, IconRubberStamp, IconSquareNumber1, IconId, IconUserScan, IconMapPin } from '@tabler/icons-vue'
 
 export default {
   name: 'FieldArea',
@@ -406,6 +406,7 @@ export default {
         stamp: this.t('stamp'),
         payment: this.t('payment'),
         phone: this.t('phone'),
+        location: this.t('location'),
         verification: this.t('verify_id'),
         kba: this.t('kba')
       }
@@ -479,6 +480,7 @@ export default {
         cells: IconColumns3,
         multiple: IconChecks,
         phone: IconPhoneCheck,
+        location: IconMapPin,
         payment: IconCreditCard,
         verification: IconId,
         kba: IconUserScan
