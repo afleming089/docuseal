@@ -114,9 +114,9 @@ export default {
         stamp: this.t('stamp'),
         payment: this.t('payment'),
         phone: this.t('phone'),
+        location: this.t('location'),
         verification: this.t('verify_id'),
         kba: this.t('kba'),
-        geolocation: this.t('geo_location')
       }
     },
     fieldLabels () {
@@ -135,10 +135,10 @@ export default {
         cells: this.t('cells_field'),
         stamp: this.t('stamp_field'),
         payment: this.t('payment_field'),
+        location: this.t('location_field'),
         phone: this.t('phone_field'),
         verification: this.t('verify_id'),
-        kba: this.t('kba'),
-        geolocation: this.t('geo_location')
+        kba: this.t('kba')
       }
     },
     fieldIcons () {
@@ -163,7 +163,7 @@ export default {
         phone: IconPhoneCheck,
         verification: IconId,
         kba: IconUserScan,
-        geolocation: IconMapPin
+        location: IconMapPin
       }
     },
     skipTypes () {
