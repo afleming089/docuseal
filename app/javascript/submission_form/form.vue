@@ -459,7 +459,7 @@
             </div>
           </div>
           <ImageStep
-            v-else-if="currentField.type === 'image' || currentField.type === 'stamp'"
+            v-else-if="currentField.type === 'image' || currentField.type === 'stamp' ||  currentField.type === 'location'"
             :key="currentField.uuid"
             v-model="values[currentField.uuid]"
             :field="currentField"
